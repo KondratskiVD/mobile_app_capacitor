@@ -172,7 +172,7 @@ export default defineComponent({
 .auth__title {
   color: #2D373E;
   font-size: 22px;
-  margin-top: 130px;
+  margin-top: 70px;
   font-weight: bold;
 }
 
@@ -203,6 +203,7 @@ export default defineComponent({
   position: relative;
   font-size: 28px;
   color: #616E7D;
+  outline: none;
 }
 
 .numbers__button {
@@ -213,7 +214,7 @@ export default defineComponent({
 
   &:hover {
     box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
-    6px 6px 10px rgba(0, 0, 0, 0.2);
+    6px 6px 10px rgba(212, 219, 230, 1);
   }
 
   &:active {
