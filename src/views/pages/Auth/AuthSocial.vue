@@ -30,11 +30,13 @@
     </div>
     <p class="auth_help auth_help__top">Зареєструйтесь за телефоном або E-mail</p>
     <p class="auth_help auth_help__bottom">Вже є аккаунт? Увійти до системи</p>
+
   </div>
 </template>
 
 <script>
 import {defineComponent} from "vue";
+
 export default defineComponent({
   name: "AuthSocial"
 })
